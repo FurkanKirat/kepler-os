@@ -1,2 +1,19 @@
-# kepler-os
-A hobby OS kernel written in C — scheduler, memory, syscalls, and disk I/O
+# KeplerOS
+
+A hobby operating system kernel written in C.
+
+## Building
+
+> Docker-based build environment coming soon.
+
+## Features (planned)
+
+- CPU Scheduling
+- Memory Management
+- Disk I/O
+- System Calls
+
+## Team
+
+- Hidayet Başer
+- Furkan Kırat
