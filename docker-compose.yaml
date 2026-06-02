@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  compiler:
+    build: .
+    image: os-compiler
+    volumes:
+      - .:/os-project
+    
+    # Keeping the command line live to keep the container open
+    tty: true
+    stdin_open: true
